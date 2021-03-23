@@ -1,3 +1,17 @@
+/* base class */
+.inline-block {
+    display: inline-block;
+}
+.vertical-middle {
+    vertical-align: middle;
+}
+.vertical-top {
+    vertical-align: top;
+}
+.vertical-bottom {
+    vertical-align: bottom;
+}
+/* base class */
 .htmlimg {
     width: 100px;
     height: 30px;
@@ -8,7 +22,6 @@
 }
 .navigation-a {
     padding-top: 7.5px;
-    display: inline-block;
     color: #3D58A6;
     font-size: 22px;
     font-family: 'BPG Nino Mtavruli Bold';
@@ -26,15 +39,19 @@
     height: 30px;
 }
 .social-li {
-    display: inline-block;
     border: 0;
 }
+/* .social-li::before {
+    content: "before";
+}
+.social-li::after {
+    content: "after";
+} */
 .social-a.facebook {
     padding-right: 30px;
     border-right-style: solid;
     border-right-width: 1px;
     border-right-color:#3D58A6;
-    display: inline-block;
 }
 .social-a.youtube {
     padding-left: 30px;
@@ -52,7 +69,6 @@
     padding: 8px;
     font-size: 48px;
     color: white;
-    display: inline-block;
     margin-top: 40px;
 }
 .month {
@@ -79,16 +95,28 @@
     color:  #3D58A6;
     font-size: 20px;
     font-family: 'BPG Nino Mtavruli Bold';
-    text-align: center;
+    /* text-align: center; */
 }
-.contact-section{
+.content-section {
+    background-color: #E6E6E6;
+    padding: 30px 0px 30px 30px;
+}
+.contact-left-section{
     width: 280px;
-    margin: 150px auto;
+}
+.contact-right-section {
+    width: 100%;
+    margin-top: 30px;
+}
+.iframe-map {
+    width: 870px;
+    height: 460px;
+    
 }
 .row {
     font-family: 'BPG Ingiri Arial';
     font-size: 16px;
-    text-align: center;
+    /* text-align: center; */
 }
 .key {
     color: #808080;
@@ -122,12 +150,7 @@
     width: 570px;
     background-color: #E6E6E6;
     padding: 15px 25px 40px 15px;
-    vertical-align: top;
-    display: inline-block;
     /* float: left; */
-}
-.feature-wrapper {
-    display: inline-block;
 }
 .feature-item.left {
     margin-left: 30px;
@@ -136,23 +159,12 @@
     margin-bottom: 56px;
     width: 100px;
     margin: auto 60px auto 25px;
-    display: inline-block;
-    vertical-align: bottom;
 }
 .content-par {
-    display: inline-block;
     width: calc(100% - 185px);
     font-size: 20px;
-    vertical-align: top;
     font-family: 'Roboto';
     line-height: 24px;
 }
-
-
-
-
-
-
-
 
 /* feature block */ 
