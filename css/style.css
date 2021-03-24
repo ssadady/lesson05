@@ -15,7 +15,6 @@
 .htmlimg {
     width: 100px;
     height: 30px;
-    margin-top: 30px;
 }
 .navigation{
     margin-top: 25px;
@@ -105,9 +104,13 @@
     width: 280px;
 }
 .contact-right-section {
-    width: 100%;
-    margin-top: 30px;
-}
+    /* width: 100%; */
+     /* margin-top: 30px; */
+    /* margin-left: 200px; */
+    width: 870px;
+    height: 460px;
+    padding-left: 30px;
+} 
 .iframe-map {
     width: 870px;
     height: 460px;
