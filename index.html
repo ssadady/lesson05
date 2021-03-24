@@ -10,52 +10,82 @@
     <title>Main</title>
 </head>
 <body>
-    <main class="container">
-        <header class="header">
-            <a href="" target="_blank">
+    <main class="main">
+        <header class="header container clearfix">
+            <a href="" target="_blank" class="float-left">
                 <img src="imgs/svg/Asset 2.svg" alt="HtmlLogo" class="htmlimg">
             </a>
-            <nav class="navigation">
+            <ul class="social-ul float-right">
+                <li class="social-li">
+                    <a href="#" class="social-a inline-block">
+                        <img src="imgs/svg/Asset 5.svg" alt="fb-logo">
+                    </a>
+                </li>
+                <li class="social-li">
+                    <a href="#" class="social-a inline-block">
+                        <img src="imgs/svg/Asset 5.svg" alt="fb-logo">
+                    </a>
+                </li>
+                <li class="social-li">
+                    <a href="#" class="social-a inline-block">
+                        <img src="imgs/svg/Asset 6.svg" alt="yt-logo">
+                    </a>
+                </li>
+                <li class="social-li">
+                    <a href="#" class="social-a inline-block">
+                        <img src="imgs/svg/Asset 6.svg" alt="yt-logo">
+                    </a>
+                </li>
+            </ul>
+            <nav class="navigation float-right">
                 <ul class="navigation-ul">
-                    <li class="navigation-li">
-                        <a href="index.html" class="navigation-a inline-block">მთავარი</a>
+                    <li class="navigation-li inline-block vertical-midddle">
+                        <a href="index.html" class="navigation-a inline-block">HOME</a>
                     </li>
-                    <li class="navigation-li">
-                        <a href="news.html" class="navigation-a inline-block">სიახლები</a>
+                    <li class="navigation-li inline-block vertical-midddle">
+                        <a href="news.html" class="navigation-a inline-block">NEWS</a>
                     </li>
-                    <li class="navigation-li">
-                        <a href="contact.html" class="navigation-a inline-block">კონტაქტი</a>
+                    <li class="navigation-li inline-block vertical-midddle">
+                        <a href="contact.html" class="navigation-a inline-block">ABOUT</a>
+                    </li>
+                    <li class="navigation-li inline-block vertical-midddle">
+                        <a href="contact.html" class="navigation-a inline-block">CONTACT</a>
                     </li>
                 </ul>
             </nav>
+            <!-- <div class="clear"></div> -->
         </header>
         <section class="section">
-            <img src="imgs/png/Asset 4.png" alt="bannerimg" class="bannerimg">
-            <p></p>
+            <div class="container">
+                <img src="imgs/png/Asset 4.png" alt="bannerimg" class="bannerimg">
+                <p></p>
+            </div>
         </section>
         <section class="feature-block">
-            <h1 class="feature-heading">FEATURED | <a class="heading-link" href="">view  all featured media</a></h1>
-            <div class="feature-wrapper inline-block">
-                <article class="feature-item inline-block">
-                    <h1 class="feature-article-tittle">RESPONSIVE WEB DESIGN</h1>
-                    <div class="content-wrapper">
-                        <img class="content-img inline-block vertical-bottom" src="imgs/png/Asset 1.png" alt="fingerlogo"><!--
-                        --><p class="content-par inline-block vertical-top">approach that suggests that design and development should respond to the user's behavior and environment based on screen size, platform and orientation.</p>
-                    </div>
-                </article>
-            </div>
-            <div class="feature-wrapper inline-block">
-                <article class="feature-item left inline-block">
-                    <h1 class="feature-article-tittle">RESPONSIVE WEB DESIGN</h1>
-                    <div class="content-wrapper">
-                        <img class="content-img inline-block vertical-bottom" src="imgs/png/Asset 1.png" alt="fingerlogo"><!--
-                        --><p class="content-par inline-block vertical-top">approach that suggests that design and development should respond to the user's behavior and environment based on screen size, platform and orientation.</p>
-                    </div>
-                </article>
+            <div class="container">
+                    <h1 class="feature-heading">FEATURED | <a class="heading-link" href="">view  all featured media</a></h1>
+                <div class="feature-wrapper inline-block">
+                    <article class="feature-item inline-block">
+                        <h1 class="feature-article-tittle">RESPONSIVE WEB DESIGN</h1>
+                        <div class="content-wrapper">
+                            <img class="content-img inline-block vertical-bottom" src="imgs/png/Asset 1.png" alt="fingerlogo"><!--
+                            --><p class="content-par inline-block vertical-top">approach that suggests that design and development should respond to the user's behavior and environment based on screen size, platform and orientation.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="feature-wrapper inline-block">
+                    <article class="feature-item left inline-block">
+                        <h1 class="feature-article-tittle">RESPONSIVE WEB DESIGN</h1>
+                        <div class="content-wrapper">
+                            <img class="content-img inline-block vertical-bottom" src="imgs/png/Asset 1.png" alt="fingerlogo"><!--
+                            --><p class="content-par inline-block vertical-top">approach that suggests that design and development should respond to the user's behavior and environment based on screen size, platform and orientation.</p>
+                        </div>
+                    </article>
+                </div>
             </div>
         </section>
-        <footer class="footer">
-            <ul class="social-ul">
+        <footer class="footer container">
+            <!-- <ul class="social-ul">
                 <li class="social-li inline-block">
                     <a href="https://www.facebook.com/" class="social-a facebook inline-block">
                         <img src="imgs/svg/Asset 5.svg" alt="fblogo" class="fblogo">
@@ -64,7 +94,7 @@
                         <img src="imgs/svg/Asset 6.svg" alt="ytlogo" class="ytlogo">
                     </a>
                 </li>
-            </ul>
+            </ul> -->
         </footer>
     </main>
 </body>

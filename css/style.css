@@ -11,34 +11,68 @@
 .vertical-bottom {
     vertical-align: bottom;
 }
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+.clear {
+    clear: both;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
 /* base class */
+.section {
+    background-color: #E6E6E6;
+    padding: 0px 0px 30px 30px;
+}
 .htmlimg {
     width: 100px;
-    height: 30px;
+}
+header{
+    padding: 30px 0;
 }
 .navigation{
-    margin-top: 25px;
+    /* display: inline-block; */
+    margin-right: 500px;
 }
 .navigation-a {
-    padding-top: 7.5px;
+    padding:0px 15px;
     color: #3D58A6;
-    font-size: 22px;
-    font-family: 'BPG Nino Mtavruli Bold';
+    font-size: 24px;
+    font-family: 'roboto';
 }
 .navigation-a:hover {
-    color: #EE4036;
+    color: #BDCCD4;
+    opacity: 5;
 }
 .bannerimg{
     margin-top: 28px;
 }
-.container {
-    margin-left: 30px;
-}
 .social-a img {
     height: 30px;
 }
-.social-li {
+.social-a {
+    padding: 0px 15px;
+    border-right-color: #3D58A6;
+    border-right-width: 2px;
+    border-right-style: solid;
+}
+.social-li:last-child .social-a {
+    padding-right: 0;
     border: 0;
+    color: red;
+}
+.social-li {
+    display: inline-block;
 }
 /* .social-li::before {
     content: "before";
@@ -46,15 +80,6 @@
 .social-li::after {
     content: "after";
 } */
-.social-a.facebook {
-    padding-right: 30px;
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-right-color:#3D58A6;
-}
-.social-a.youtube {
-    padding-left: 30px;
-}
 .footer{
     margin-top: 30px;
 }
@@ -129,7 +154,8 @@
 }
 /* feature block */
 .feature-block {
-    margin-top: 120px;
+    background-color: #E6E6E6;
+    padding: 31px 0px 31px 0px;   
 }
 .feature-heading {
     font-family:  'Roboto';
@@ -151,10 +177,12 @@
 }
 .feature-item {
     width: 570px;
-    background-color: #E6E6E6;
+    background-color: #F2F2F2;
     padding: 15px 25px 40px 15px;
+    display: table-caption;
     /* float: left; */
 }
+
 .feature-item.left {
     margin-left: 30px;
 }
