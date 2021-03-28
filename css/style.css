@@ -172,15 +172,20 @@ header{
     color: #3D58A6;
     padding: 31px 0 150px 0px;
 }
-.pc-text {
+.img-wrapper .img-tittle {
     width: 270px;
-    height: 60px;
+    line-height: 60px;
     background-color: #E6E6E6;
+    color: #333333;
+    /* width: 100%; */
+    font-family: "roboto";
+    font-size: 22px;
+    font-style: uppercase;
+    padding-left: 15px;
 }
-.img-section {
-
+.image-block img {
+    display: block;
 }
-
 .marginleft-30px{
     margin-left: 29px;
 }
