@@ -93,10 +93,11 @@ header{
     background-color: #3D58A6;
     /* width: 56px;
     height: 56px; */
-    padding: 8px;
+    padding: 8px 8px 0px 8px; 
     font-size: 48px;
     color: white;
     margin-top: 40px;
+    line-height: 47px;
 }
 .month {
     font-size: 22px;
