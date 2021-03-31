@@ -74,16 +74,17 @@ header{
 .bannerimg{
     margin-top: 28px;
 }
-/* .bannertext {
+.banner-li {
     font-family: "roboto";
     font-size: 30px;
     text-transform: uppercase;
     color: white;
-    position: relative;
-    right: 30px;
+}
+.banner-ul {
+    position: absolute;
     bottom: 30px;
-    left: 0;
-} */
+    left: 30px;
+}
 .htmlsvg {
     position: absolute;
     right: 30px;
