@@ -232,6 +232,9 @@ header{
 .marginleft-30px{
     margin-left: 29px;
 }
+.img-article {
+    padding-top: 35px;
+}
 /* image block */
 /* feature block */
 .feature-block {
@@ -341,3 +344,30 @@ header{
 /* animations */
 
 /* animations */
+
+/*  navblock */
+    .nav-block {
+        background-color: #EE4036;
+        font-family: "roboto";
+        font-size: 22px;
+        color: white;
+    }
+    .navblock-li .navblock-a::after {
+        content: " ";
+        background-image: url('../imgs/svg/arrowlogo.svg');
+        width: 24px;
+        height: 16px;
+        display: inline-block;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .navblock-a {
+        line-height: 90px;
+    }
+    .nextsee-a {
+        line-height: 90px;
+    }
+    .newslab-a {
+        line-height: 90px;
+    }
+/*  navblock */
