@@ -371,3 +371,66 @@ header{
         line-height: 90px;
     }
 /*  navblock */
+/* mapblock */
+.mapframe {
+    height: 460px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: block;
+}
+.map-block {
+    background-color: gray;
+    /* display: block; */
+}
+.info-wrapper {
+    background-color: #3d58a6;
+    font-family: "roboto";
+}
+.leftblock {
+    width: 365px;
+
+}
+.rightform {
+    width: calc(100% - 365px);
+    padding-right: 170px;
+}
+.inforow input,
+.inforow textarea{
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+    font-family: "roboto";
+    border: 3px solid white;
+    background-color: transparent;
+    padding-left: 25px;
+    color: white;
+    margin-top: 15px;
+}
+.inforow textarea{
+    height: 100px;
+}
+.inforow input::placeholder {
+    color: #5e65ac;
+}
+.inforow .label {
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+    padding-left: 25px;
+    padding-bottom: 15px;
+}
+.inforow {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.info-block .button{
+    background-color: red;
+    font-family: "roboto";
+    width: 130px;
+    height: 45px;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color: white;
+}
+/* mapblock */
