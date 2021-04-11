@@ -214,10 +214,32 @@
 }
 /* video block */
 /* image block */
+.load {
+    display: flex;
+    justify-content: center;
+}
+.loadmore {
+    height: 60px;
+    width: 135px;
+    background-color: #83939B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+}
+.loadmore-h1 {
+    font-size: 18px;
+    color: white;
+}
+.loadmore:hover {
+    opacity: 90%;
+    transition: all 1.5s;
+    background-color: #C95B34;
+}
 .image-block {
     background-color: #BDCCD4;
     color: #3D58A6;
-    padding: 31px 0 150px 0px;
+    padding: 31px 0 45px 0px;
 }
 .img-wrapper .img-tittle {
     width: 270px;
