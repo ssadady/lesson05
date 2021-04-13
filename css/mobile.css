@@ -1,0 +1,21 @@
+@media (max-width: 1200px) {
+    .container {
+        padding: 0 30px;
+
+    }
+    
+}
+@media (max-width: 1024px) {
+    .navigation {
+        display: none;
+    }
+    .burger-menu{
+        display: inline-block;
+    }
+    .html-logo {
+        margin: 0 auto 0 0;
+    }
+    .social-ul {
+        margin-right: 30px;
+    }
+}
