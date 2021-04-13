@@ -18,4 +18,19 @@
     .social-ul {
         margin-right: 30px;
     }
+    .mb-nav {
+        display: block;
+    }
+}
+@media (max-width: 480px) {
+    .html-logo {
+        margin: 0;
+    }
+    .social-li:not(.search){
+        display: none;
+    }
+    .mb-social-ul{
+        display: block;
+    }
+    
 }
