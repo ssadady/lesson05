@@ -601,6 +601,37 @@
     visibility: visible;
     left: 0;
 }
-.mb-social-img {
+.mb-nav-ul {
+    flex-wrap: wrap;
 }
+
+.mb-nav-a {
+    color: #3D58A6;
+    font-size: 24px;
+    font-family: 'roboto';
+    padding-bottom: 0px;
+    transition: opacity .2s linear 0.2s;
+}
+.mb-nav-a:hover {
+    /* color: #BDCCD4; */
+    opacity: 50%;
+}
+.mb-nav-li{
+    margin-top: 50px;
+    text-align: center;
+}
+.mb-social-a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.mb-social-a:hover {
+    /* color: #BDCCD4; */
+    opacity: 50%;
+}
+.mb-social-a {
+    transition: opacity .2s linear 0.2s;
+}
+
 /* overlay */
