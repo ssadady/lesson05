@@ -47,6 +47,7 @@
 }
 .htmlimg {
     width: 100px;
+    fill: red;
 }
 .header{
     padding: 30px 0;
@@ -525,6 +526,7 @@
     margin-bottom: 30px;
     color: white;
 }
+
 /* mapblock */
 /* newhtml */
     .date-block{
@@ -635,3 +637,17 @@
 }
 
 /* overlay */
+/* svg */
+.htmlimg:hover .cls-2 {
+    fill: #3D58A6;
+    opacity: 80%;
+}
+.htmlimg:hover .cls-1 {
+    fill: aqua;
+    opacity: 80%;
+}
+.htmlimg:hover .cls-3 {
+    fill: aquamarine;
+    opacity: 80%;
+}
+/* svg */
