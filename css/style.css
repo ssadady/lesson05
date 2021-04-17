@@ -83,6 +83,7 @@
     font-size: 30px;
     text-transform: uppercase;
     color: white;
+    cursor: default;
 }
 .banner-ul {
     position: absolute;
