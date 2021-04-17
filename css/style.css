@@ -259,6 +259,15 @@
 }
 /* video block */
 /* image block */
+.random-img {
+    height: 210px;
+    width: 100%;
+    background-size: cover;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
 .load {
     display: flex;
     justify-content: center;
