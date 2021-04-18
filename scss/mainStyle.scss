@@ -1,3 +1,9 @@
+/* cvladebi */
+$Blue: #3D58A6;
+/* cvladebi */
+
+
+
 /* base class */
 .inline-block {
     display: inline-block;
@@ -64,7 +70,7 @@
 }
 .navigation-a {
     padding:0px 10px;
-    color: #3D58A6;
+    color: $Blue;
     font-size: 24px;
     font-family: 'roboto';
     padding-bottom: 0px;
@@ -101,7 +107,7 @@
 }
 .social-a {
     padding: 0px 15px;
-    border-right-color: #3D58A6;
+    border-right-color: $Blue;
     border-right-width: 2px;
     border-right-style: solid;
     transition: opacity .2s linear 0.2s;
@@ -120,7 +126,7 @@
 .burger-menu{
     width: 60px;
     height: 60px;
-    border: 1px solid #3D58A6;
+    border: 1px solid $Blue;
     overflow: hidden;
     cursor: pointer;
     display: none;
@@ -134,7 +140,7 @@
 .arrow {
     width: 40px;
     height: 5px;
-    background-color: #3D58A6;
+    background-color: $Blue;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -171,7 +177,7 @@
     font-family: 'BPG Nino Mtavruli';
 }
 .date {
-    background-color: #3D58A6;
+    background-color: $Blue;
     /* width: 56px;
     height: 56px; */
     padding: 8px 8px 0px 8px; 
@@ -182,7 +188,7 @@
 }
 .month {
     font-size: 22px;
-    color: #3D58A6;
+    color: $Blue;
     margin-top: 8px;
 }
 .article-title {
@@ -201,7 +207,7 @@
     font-family: 'BPG Ingiri Arial';
 }
 .contact-title {
-    color:  #3D58A6;
+    color:  $Blue;
     font-size: 20px;
     font-family: 'BPG Nino Mtavruli Bold';
     /* text-align: center; */
@@ -292,7 +298,7 @@
 }
 .image-block {
     background-color: #BDCCD4;
-    color: #3D58A6;
+    color: $Blue;
     padding: 31px 0 45px 0px;
 }
 .img-wrapper .img-tittle {
@@ -342,7 +348,7 @@
 }
 .feature-article-tittle {
     font-size: 22px;
-    color: #3D58A6;
+    color: $Blue;
     font-family: 'Roboto';
     margin-bottom: 20px;
 }
@@ -371,7 +377,7 @@
     line-height: 24px;
 }
 .content-expand {
-    color: #3D58A6;
+    color: $Blue;
     font-size: 14px;
     font-family: 'Roboto';
 }
@@ -443,7 +449,7 @@
         background-color: #EE4036;
         font-family: "roboto";
         font-size: 22px;
-        color: #3D58A6;
+        color: $Blue;
     }
     .nav-block.red {
         background-color: #EE4036;
@@ -486,7 +492,7 @@
     /* display: block; */
 }
 .info-wrapper {
-    background-color: #3d58a6;
+    background-color: $Blue;
     font-family: "roboto";
 }
 .leftblock {
@@ -541,14 +547,14 @@
 /* newhtml */
     .date-block{
         font-family: "roboto";
-        border: 1px solid #3D58A6;
+        border: 1px solid $Blue;
         display: flex;
         height: 60px;
         width: 60px;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        color: #3d58a6;
+        color: $Blue;
         margin-top: 30px;
     }
     .date-block .datee {
@@ -558,7 +564,7 @@
         font-size: 12px;
     }
     .new-tittle {
-        color: #3D58A6;
+        color: $Blue;
         font-family: "roboto";
         margin-top: 30px;
         font-size: 22px;
@@ -618,7 +624,7 @@
 }
 
 .mb-nav-a {
-    color: #3D58A6;
+    color: $Blue;
     font-size: 24px;
     font-family: 'roboto';
     padding-bottom: 0px;
@@ -648,16 +654,20 @@
 
 /* overlay */
 /* svg */
-.htmlimg:hover .cls-2 {
-    fill: #3D58A6;
-    opacity: 80%;
-}
-.htmlimg:hover .cls-1 {
-    fill: aqua;
-    opacity: 80%;
-}
-.htmlimg:hover .cls-3 {
-    fill: aquamarine;
-    opacity: 80%;
+.htmlimg {
+    &:hover {
+        .cls-3, .cls-2, .cls-1{
+            fill: aquamarine;
+            stroke: gray;
+            opacity: 80%;
+        }
+        .cls-2 {
+            fill: $Blue;
+        }
+        .cls-1 {
+            fill: aqua;
+        }
+    }
 }
 /* svg */
+
