@@ -1,0 +1,39 @@
+/* base class */
+.inline-block {
+    display: inline-block;
+}
+.vertical-middle {
+    vertical-align: middle;
+}
+.vertical-top {
+    vertical-align: top;
+}
+.vertical-bottom {
+    vertical-align: bottom;
+}
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+.clear {
+    clear: both;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+/* base class */

@@ -1,0 +1,73 @@
+.main {
+    margin-top: 95px;
+    .header{
+        padding: 30px 0;
+        position: fixed;
+        background-color: white;
+        width: 100%;
+        top: 0;
+        z-index: 100;
+        .container {
+            .html-logo {
+                .htmlimg {
+                    width: 100px;
+                    fill: red;
+                }
+                &:hover {
+                    .cls-3, .cls-2, .cls-1{
+                        fill: aquamarine;
+                        stroke: gray;
+                        opacity: 80%;
+                    }
+                    .cls-2 {
+                        fill: $Blue;
+                    }
+                    .cls-1 {
+                        fill: aqua;
+                    }
+                }
+            }
+            .social-ul {
+                .social-li {
+                    display: inline-block;
+                    &:hover{
+                        opacity: 50%;
+                        transition: opacity .2s linear 0.2s;
+                    }    
+                    .social-a {
+                        padding: 0px 15px;
+                        border-right-color: $Blue;
+                        border-right-width: 2px;
+                        border-right-style: solid;
+                        img {
+                            height: 30px;
+                        }
+                    }
+                }
+                
+            }
+            .navigation {
+                .navigation-ul {
+                    .navigation-li {
+                        .navigation-a {
+                            padding:0px 10px;
+                            color: $Blue;
+                            font-size: 24px;
+                            font-family: 'roboto';
+                            padding-bottom: 0px;
+                            transition: opacity .2s linear 0.2s;
+                            &:hover {
+                            opacity: 50%;
+                        }
+                        }
+                    }
+                }
+            }
+        } 
+    .header-flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+}
