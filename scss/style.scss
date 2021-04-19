@@ -1,8 +1,10 @@
-@import "reset.scss";
+@import "modules/variable.scss";
 
-@import "mainStyle.scss";
+@import "modules/reset.scss";
 
-@import "fonts.scss";
+@import "partials/fonts.scss";
 
-@import "mobile.scss";
+@import "pages/mainStyle.scss";
+
+@import "partials/mobile.scss";
 
