@@ -48,7 +48,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transition: all .2s linear;
+    transition: all $animationTime $animationType;
     transform: translate(-50%, -50%) rotate(0deg);
 }
 .burger-menu:hover .arrow:first-child{
@@ -242,7 +242,7 @@
     padding: 31px 0px 31px 0px;   
 }
 .feature-heading {
-    font-family:  'Roboto';
+    font-family:  $robotoRegurl;
     font-size: 24px;
     text-transform: uppercase;
     margin-bottom: 35px;
@@ -253,7 +253,7 @@
 .feature-article-tittle {
     font-size: 22px;
     color: $Blue;
-    font-family: 'Roboto';
+    font-family: $robotoRegurl;
     margin-bottom: 20px;
 }
 .feature-title {
@@ -277,13 +277,13 @@
 .content-par {
     width: calc(100% - 185px);
     font-size: 20px;
-    font-family: 'Roboto';
+    font-family: $robotoRegurl;
     line-height: 24px;
 }
 .content-expand {
     color: $Blue;
     font-size: 14px;
-    font-family: 'Roboto';
+    font-family: $robotoRegurl;
 }
 /* feature block */ 
 /* footer block */
@@ -465,7 +465,7 @@
     background-color: white;
     opacity: 0;
     visibility: hidden;
-    transition: opacity .2s linear, visibility .2s linear, left .2s linear;
+    transition: opacity $animationTime $animationType, visibility $animationTime $animationType, left $animationTime $animationType;
 }
 .overlay.active{
     opacity: 1;
@@ -479,9 +479,9 @@
 .mb-nav-a {
     color: $Blue;
     font-size: 24px;
-    font-family: 'roboto';
+    font-family: $robotoRegurl;
     padding-bottom: 0px;
-    transition: opacity .2s linear 0.2s;
+    transition: opacity $animationTime $animationType $animationDelay;
 }
 .mb-nav-a:hover {
     /* color: #BDCCD4; */
@@ -502,9 +502,8 @@
     opacity: 50%;
 }
 .mb-social-a {
-    transition: opacity .2s linear 0.2s;
+    transition: opacity $animationTime $animationType $animationDelay;
 }
-
 /* overlay */
 /* svg */
 /* svg */

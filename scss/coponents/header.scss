@@ -32,7 +32,7 @@
                     display: inline-block;
                     &:hover{
                         opacity: 50%;
-                        transition: opacity .2s linear 0.2s;
+                        transition: opacity $animationTime $animationType $animationDelay;
                     }    
                     .social-a {
                         padding: 0px 15px;
@@ -53,9 +53,9 @@
                             padding:0px 10px;
                             color: $Blue;
                             font-size: 24px;
-                            font-family: 'roboto';
+                            font-family: $robotoRegurl;
                             padding-bottom: 0px;
-                            transition: opacity .2s linear 0.2s;
+                            transition: opacity $animationTime $animationType $animationDelay;
                             &:hover {
                             opacity: 50%;
                         }
@@ -65,9 +65,12 @@
             }
         } 
     .header-flex {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        @include flex(space-between, center)
     }
 }
+}
+
+.banner-relative {
+    @extend %relative;
+    // @include translate (100px, 100px,150px )
 }
